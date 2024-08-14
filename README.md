@@ -72,4 +72,7 @@ Selamat datang di proyek **Comic Website**! 🎉 Proyek ini dibangun menggunakan
 
 4. **Konfigurasi Login/Register (Opsional)**:
    - Konfigurasi dapat dilakukan pada direktori `vendor/myth/auth/src`.
-    
+
+---
+
+Terima kasih telah mengunjungi repositori ini! Jika ada pertanyaan atau saran, jangan ragu untuk menghubungi saya.
