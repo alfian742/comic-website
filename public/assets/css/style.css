@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.auth-layout {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+#heroSection {
+    background-image: url('/assets/img/background.svg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.img-section {
+    width: 300px;
+    height: 300px;
+}
+
+.img-cover {
+    height: 100px;
+}
+
+.img-detail {
+    height: 350px;
+}
+
+.no-caret::after {
+    display: none !important;
+}
+
+.img-profile {
+    width: 120px;
+    height: 120px;
+}
+
+@media (max-width: 768px) {
+    .order-to-top {
+        order: 1;
+    }
+
+    .order-to-bottom {
+        order: 2;
+    }
+
+    .img-section {
+        width: 200px;
+        height: 200px;
+    }
+
+    .img-cover {
+        height: 75px;
+    }
+
+    .img-detail {
+        height: 200px;
+    }
+
+    .img-form {
+        height: 150px;
+        display: block;
+        margin: 0 auto 0 auto;
+        object-fit: fill;
+    }
+
+    .title-center {
+        text-align: center;
+    }
+
+    .element-center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .img-profile {
+        width: 150px;
+        height: 150px;
+        display: block;
+        margin: 0 auto 0 auto;
+        object-fit: fill;
+    }
+}
+
+.fs-placeholder::placeholder {
+    font-size: small;
+}
