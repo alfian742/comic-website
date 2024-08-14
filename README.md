@@ -33,7 +33,10 @@ Selamat datang di proyek **Comic Website**! 🎉 Proyek ini dibangun menggunakan
     - Ubah nama `.env.example` menjadi `.env`.
     - Lakukan konfigurasi sesuai kebutuhan.
 
-5. **Migrate Database dan Seeder**:
+5. **Konfigurasi ENV**:
+   - Buat database sesuai dengan konfigurasi ENV.
+
+7. **Migrate Database dan Seeder**:
     ```bash
     php spark migrate
     ```
@@ -50,7 +53,7 @@ Selamat datang di proyek **Comic Website**! 🎉 Proyek ini dibangun menggunakan
     php spark db:seed OrangSeeder
     ```
 
-7. **Jalankan Aplikasi**:
+8. **Jalankan Aplikasi**:
     ```bash
     php spark serve
     ```
