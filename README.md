@@ -67,8 +67,8 @@ Selamat datang di proyek **Comic Website**! 🎉 Proyek ini dibangun menggunakan
 3. **CRUD Operasi**:
    - **Create**: Tambahkan data baru melalui form input.
    - **Read**: Lihat daftar data dengan fitur pencarian dan pagination.
-   - **Update**: Edit data dengan memilih opsi edit pada tabel.
-   - **Delete**: Hapus data dengan memilih opsi hapus pada tabel.
+   - **Update**: Edit data dengan memilih opsi edit pada halaman detail.
+   - **Delete**: Hapus data dengan memilih opsi hapus pada halaman detail.
 
 4. **Konfigurasi Login/Register (Opsional)**:
    - Konfigurasi dapat dilakukan pada direktori `vendor/myth/auth/src`.
