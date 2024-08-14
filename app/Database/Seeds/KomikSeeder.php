@@ -1,0 +1,167 @@
+<?php
+
+namespace App\Database\Seeds;
+
+use CodeIgniter\Database\Seeder;
+
+class KomikSeeder extends Seeder
+{
+    public function run()
+    {
+        $data = [
+            [
+                'id' => 1,
+                'judul' => 'Naruto',
+                'slug' => 'naruto',
+                'penulis' => 'Masashi Kishimoto',
+                'penerbit' => 'Shueisha',
+                'sampul' => '1685064873_3f719d9f84fc0cfca5ef.jpg',
+                'created_at' => '2023-05-26 01:34:33',
+                'updated_at' => '2023-06-19 14:19:39',
+            ],
+            [
+                'id' => 2,
+                'judul' => 'Detective Conan',
+                'slug' => 'detective-conan',
+                'penulis' => 'Gosho Aoyama',
+                'penerbit' => 'Shogakukan',
+                'sampul' => '1685064980_4b396c38ad361bf07057.jpg',
+                'created_at' => '2023-05-26 01:36:20',
+                'updated_at' => '2023-05-26 01:36:20',
+            ],
+            [
+                'id' => 3,
+                'judul' => 'Shingeki no Kyojin',
+                'slug' => 'shingeki-no-kyojin',
+                'penulis' => 'Hajime Isayama',
+                'penerbit' => 'Kodansha',
+                'sampul' => '1685065032_e978389f71fcb168d5ac.jpg',
+                'created_at' => '2023-05-26 01:37:12',
+                'updated_at' => '2023-05-26 01:37:12',
+            ],
+            [
+                'id' => 4,
+                'judul' => 'One Piece',
+                'slug' => 'one-piece',
+                'penulis' => 'Eiichiro Oda',
+                'penerbit' => 'Shueisha',
+                'sampul' => '1685065086_6b3adb669342a68816a4.jpg',
+                'created_at' => '2023-05-26 01:38:06',
+                'updated_at' => '2023-05-26 01:38:06',
+            ],
+            [
+                'id' => 5,
+                'judul' => 'Fuuto PI',
+                'slug' => 'fuuto-pi',
+                'penulis' => 'Riku Sanjo',
+                'penerbit' => 'Shogakukan',
+                'sampul' => '1685065210_8b7d35bb399be3e70494.jpg',
+                'created_at' => '2023-05-26 01:38:53',
+                'updated_at' => '2023-05-26 01:40:10',
+            ],
+            [
+                'id' => 6,
+                'judul' => 'Doraemon',
+                'slug' => 'doraemon',
+                'penulis' => 'Fujiko F. Fujio (藤子・F・不二雄)',
+                'penerbit' => 'Shogakukan',
+                'sampul' => '1685065259_237d9986dd266cf75583.jpg',
+                'created_at' => '2023-05-26 01:40:59',
+                'updated_at' => '2023-05-26 01:40:59',
+            ],
+            [
+                'id' => 7,
+                'judul' => 'Kimetsu no Yaiba',
+                'slug' => 'kimetsu-no-yaiba',
+                'penulis' => 'Koyoharu Gotōge',
+                'penerbit' => 'Shueisha',
+                'sampul' => '1685065488_3b58f5fec3642f45cafc.jpg',
+                'created_at' => '2023-05-26 01:44:48',
+                'updated_at' => '2023-05-26 01:44:48',
+            ],
+            [
+                'id' => 8,
+                'judul' => 'Dragon Ball',
+                'slug' => 'dragon-ball',
+                'penulis' => 'Akira Toriyama',
+                'penerbit' => 'Shueisha',
+                'sampul' => '1685065654_cdd4e9034ac943d800ab.jpg',
+                'created_at' => '2023-05-26 01:47:34',
+                'updated_at' => '2023-05-26 01:47:34',
+            ],
+            [
+                'id' => 9,
+                'judul' => 'One Punch Man',
+                'slug' => 'one-punch-man',
+                'penulis' => 'One',
+                'penerbit' => 'Shueisha',
+                'sampul' => '1685065789_1ad26c9dffc08a24c9f1.png',
+                'created_at' => '2023-05-26 01:49:49',
+                'updated_at' => '2023-05-26 01:49:49',
+            ],
+            [
+                'id' => 10,
+                'judul' => 'Death Note',
+                'slug' => 'death-note',
+                'penulis' => 'Tsugumi Ohba',
+                'penerbit' => 'Shueisha',
+                'sampul' => '1685065936_01800dedb13361209641.jpg',
+                'created_at' => '2023-05-26 01:52:16',
+                'updated_at' => '2023-05-26 01:52:16',
+            ],
+            [
+                'id' => 11,
+                'judul' => 'Spy x Family',
+                'slug' => 'spy-x-family',
+                'penulis' => 'Tatsuya Endō (遠藤達哉)',
+                'penerbit' => 'Shueisha',
+                'sampul' => '1685066083_f7167f95a2a180f821c9.jpg',
+                'created_at' => '2023-05-26 01:54:43',
+                'updated_at' => '2023-05-26 01:54:43',
+            ],
+            [
+                'id' => 12,
+                'judul' => 'Dr. Stone',
+                'slug' => 'dr-stone',
+                'penulis' => 'Riichiro Inagaki',
+                'penerbit' => 'Shueisha',
+                'sampul' => '1685066259_4fe1396bd97f3a1a8073.jpg',
+                'created_at' => '2023-05-26 01:57:39',
+                'updated_at' => '2023-05-26 01:57:39',
+            ],
+            [
+                'id' => 13,
+                'judul' => 'Tokyo Revengers',
+                'slug' => 'tokyo-revengers',
+                'penulis' => 'Ken Wakui',
+                'penerbit' => 'Kodansha',
+                'sampul' => '1685066395_6429e932d46f75b84ec0.jpg',
+                'created_at' => '2023-05-26 01:59:55',
+                'updated_at' => '2023-05-26 01:59:55',
+            ],
+            [
+                'id' => 14,
+                'judul' => 'Captain Tsubasa',
+                'slug' => 'captain-tsubasa',
+                'penulis' => 'Yoichi Takahashi',
+                'penerbit' => 'Shueisha',
+                'sampul' => '1685952206_23c2aeb67758a68265a1.jpg',
+                'created_at' => '2023-05-26 02:03:02',
+                'updated_at' => '2023-06-05 08:03:26',
+            ],
+            [
+                'id' => 15,
+                'judul' => 'Naruto Shippuden',
+                'slug' => 'naruto-shippuden',
+                'penulis' => 'Masashi Kishimoto',
+                'penerbit' => 'Shueisha',
+                'sampul' => '1687184754_d641790ac0427054e366.jpg',
+                'created_at' => '2023-06-19 14:14:45',
+                'updated_at' => '2023-06-19 14:25:54',
+            ],
+        ];
+
+        // Using Query Builder
+        $this->db->table('komik')->insertBatch($data);
+    }
+}
